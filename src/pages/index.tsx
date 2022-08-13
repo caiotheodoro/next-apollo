@@ -3,9 +3,9 @@ import type { GetServerSidePropsContext, NextPage } from "next";
 import {
   addApolloState,
   initializeApollo,
-} from "../lib/apolloClient";
-import { prisma } from "../lib/prisma";
-import Register from "../modules/components/login/Register";
+} from "../../modules/lib/apolloClient";
+import { prisma } from "../../modules/lib/prisma";
+import Register from "../components/login/Register";
 
 const testQuery = gql`
   {

@@ -20,7 +20,7 @@ type SchemaContext =
 
 function createIsomorphicLink(ctx?: SchemaContext) {
   if (typeof window === "undefined") {
-    const { schema } = require("../modules/graphql/schema");
+    const { schema } = require("../../modules/graphql/schema");
     return new SchemaLink({
       schema,
       context: ctx,

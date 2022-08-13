@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { server } from "../../lib/apolloServer";
-import { cors } from "../../modules/middleware/cors";
+import { server } from "../../../modules/lib/apolloServer";
+import { cors } from "../../../modules/middleware/cors";
 
 export const config = {
   api: {
